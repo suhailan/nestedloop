@@ -21,7 +21,10 @@ public class nestedloop {
                 System.out.println("Sujud");
                 for (int tasbih2=1; tasbih2 <= 3; tasbih2++)
                     System.out.println("Subhaana rabbiyal a'la wabihamdih");                
-                if (sujud==1) System.out.println("DudukAntaraDuaSujud");                
+                if (sujud==1) {
+                    System.out.println("DudukAntaraDuaSujud");                
+                    System.out.println("robbighfirlii warhamnii wajburnii warfa'nii warzuqnii wahgdinii wa'aafinii wa'fu 'anni");
+                }
             }
             if (rakaat==2)
                 System.out.println("DudukTahiyatAwal");                
