@@ -2,6 +2,7 @@
 package nestedloop;
 
 public class nestedloop {
+    public String[] doaantarasujud ={"Robbighfirlii", "warhamnii", "wajburnii", "warfa'nii", "warzuqnii", "wahdinii", "wa'aafinii", "wa'fu'anni"};
     public static void main(String[] args) {
         //NESTED LOOP IN SOLAT ZOHOR, ASAR DAN ISYAK
         //BY: SUHAILAN SAFEI (3 SEPT 2015)
@@ -22,8 +23,11 @@ public class nestedloop {
                 for (int tasbih2=1; tasbih2 <= 3; tasbih2++)
                     System.out.println("Subhaana rabbiyal a'la wabihamdih");                
                 if (sujud==1) {
-                    System.out.println("DudukAntaraDuaSujud");                
-                    System.out.println("robbighfirlii warhamnii wajburnii warfa'nii warzuqnii wahgdinii wa'aafinii wa'fu 'anni");
+                    System.out.println("DudukAntaraDuaSujud");
+                    String[] doaantarasujud ={"Robbighfirlii", "warhamnii", "wajburnii", "warfa'nii", "warzuqnii", "wahdinii", "wa'aafinii", "wa'fu'anni"};
+                    for (int doa=0; doa < doaantarasujud.length; doa++)
+                        System.out.print(doaantarasujud[doa]+" ");
+                    System.out.println();
                 }
             }
             if (rakaat==2)
@@ -34,10 +38,6 @@ public class nestedloop {
             }
         }
         System.out.println("Salam");
-        
-        
-        
-        
     }
 }
 
